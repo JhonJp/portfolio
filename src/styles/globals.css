@@ -1,0 +1,17 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --grey: #808080;
+}
+
+.bd-mode-toggle.dark button#bd-theme {
+  border: 1px solid var(--white);
+}
+
+.bd-mode-toggle.system button#bd-theme {
+  border: 1px solid var(--grey);
+}
+
+.bd-mode-toggle.light button#bd-theme {
+  border: 1px solid var(--black);
+}
