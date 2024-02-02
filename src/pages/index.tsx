@@ -1,7 +1,6 @@
 import Head from "next/head";
 import styles from "@/styles/Home.module.css";
 import Layout from "./component/layout/Layout";
-import { Providers } from "./component/providers";
 import { Inter } from "next/font/google";
 import Script from "next/script";
 
@@ -10,7 +9,6 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      <Providers>
         <Head>
           <title>Portfolio</title>
           <meta name="description" content="A personalized portfolio of John Paeldin" />
@@ -21,7 +19,6 @@ export default function Home() {
         <main className={`${styles.main} ${inter.className}`}>
           <Layout className="main-container"/>
         </main>
-      </Providers>
       <Script src="/js/bootstrap.bundle.min.js" />
     </>
   );
