@@ -136,7 +136,7 @@ nav>div.container {
         }
 
         .card-body {
-            align-items: start;
+            align-items: flex-start;
             display: flex;
             justify-content: center;
             text-align: center;
@@ -186,7 +186,7 @@ nav>div.container {
 
             .visit-link {
                 display: grid;
-                place-items: start;
+                place-items: flex-start;
                 font-size: 14px;
                 text-decoration: unset;
             }
