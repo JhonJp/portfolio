@@ -16,8 +16,8 @@ export default function Home() {
           <meta name="description" content="A personalized portfolio of John Paeldin" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/favicon.ico" />
-          <Script src="/js/custom.js" defer/>
         </Head>
+        <Script src="/js/custom.js" defer/>
         <main className={`${styles.main} ${inter.className}`}>
           <Layout className="main-container"/>
         </main>
