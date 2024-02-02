@@ -7,7 +7,7 @@ const BriefInfo = (props: any) => {
             <div className="info-wrapper justify-content-between">
             {(Info || []).map((item) => {
                 return(
-                    <Card {...props}>
+                    <Card {...props} key={Math.floor(Math.random() * 9999999)}>
                         <Card.Img variant="top" src={`/img/${item.icon ?? 'fe.png'}`} />
                         <Card.Body>
                             <div className="d-inline">

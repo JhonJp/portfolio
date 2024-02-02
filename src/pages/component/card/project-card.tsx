@@ -11,14 +11,14 @@ const ProjectCard = (props?: any) => {
             <div className="grid justify-content-center">
                 {(Projects || []).map((item) => {
                     return(
-                        <Card {...props} style={{ background: `url(${item.imgBackground}) no-repeat`, backgroundSize: 'cover'}}>
+                        <Card {...props} key={Math.floor(Math.random() * 99999999)} style={{ background: `url(${item.imgBackground}) no-repeat`, backgroundSize: 'cover'}}>
                             <Card.Body>
                                 <div className="d-inline">
                                     <Card.Title>{item.name}</Card.Title>
                                     <div className="card-text">
                                         {(item.tag ?? []).map((tag) => {
                                             return(
-                                                <Chip className="chip" label={`${tag}`} />
+                                                <Chip key={Math.floor(Math.random() * 9999999)} className="chip" label={`${tag}`} />
                                             )
                                         })}
                                         <hr />

@@ -13,7 +13,7 @@ const NavBar = (props?: any) => {
                     <Nav>
                         { (Navigations || []).map((item) => {
                             return(
-                                <Nav.Link href={`${item.url}`} className={`${router.pathname == item.url ? "active" : ""}`}>{item.name}</Nav.Link>
+                                <Nav.Link key={Math.floor(Math.random() * 9999999)} href={`${item.url}`} className={`${router.pathname == item.url ? "active" : ""}`}>{item.name}</Nav.Link>
                             )
                         })}
                         {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
