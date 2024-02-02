@@ -4,6 +4,7 @@ export default function Document() {
   return (
     <Html lang="en" suppressHydrationWarning>
       <Head />
+      <link href="/css/bootstrap.min.css" rel="stylesheet"></link>
       <body>
         <Main />
         <NextScript />
