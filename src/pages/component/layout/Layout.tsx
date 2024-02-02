@@ -4,6 +4,7 @@ import ProjectCard from "../card/project-card";
 import Contact from "../contact/Contact";
 import { MailOutline, LinkedIn } from '@mui/icons-material';
 import { ContactDetails } from "@/constants/Info";
+import Image from "next/image";
 
 const Layout = (props?: any) => {
     return(
@@ -29,7 +30,7 @@ const Layout = (props?: any) => {
                         }
                         action={
                             <div className="avatar holder">
-                                <img className="img-avatar" src="/img/me.jpg" />
+                                <Image alt="Avatar" className="img-avatar" src="/img/me.jpg" />
                             </div>
                         }
                     />

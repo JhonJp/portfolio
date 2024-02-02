@@ -15,9 +15,9 @@ const Contact = (props: IContact) => {
                 <Card {...props}>
                     <Card.Body>
                         <div className="d-inline">
-                            <Card.Title>{details.headline}</Card.Title>
+                            <Card.Title>{details?.headline ?? ''}</Card.Title>
                             <div className="card-text">
-                                {details.contactTag}
+                                {details?.contactTag ?? ''}
                                 <ul>
                                     <li><MailOutline /> <a href="mailto:jhonpaeldin0020@gmail.com" >jhonpaeldin0020@gmail.com</a></li>
                                     <li><LinkedIn /> <a target="_blank" href="https://www.linkedin.com/in/john-paeldin-625a2b150/" >/in/john-paeldin-625a2b150</a></li>
