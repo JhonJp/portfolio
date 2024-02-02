@@ -4,6 +4,7 @@ import Layout from "./component/layout/Layout";
 import { Providers } from "./component/providers";
 import { Inter } from "next/font/google";
 import Script from "next/script";
+import ProjectCard from "./component/card/project-card";
 
 const inter = Inter({ subsets: ["latin"] });
 
