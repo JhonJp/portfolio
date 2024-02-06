@@ -338,12 +338,12 @@ export const ProjectsGallery = [
     author: '',
   },
   {
-    img: '/img/projects/shoeshop/shoeshop.png',
+    img: '/img/projects/shoeshop/shoe-shop.png',
     title: 'Shoe Shop Project',
     author: '',
   },
   {
-    img: '/img/projects/shoeshop/milkteashop.png',
+    img: '/img/projects/shoeshop/milktea-shop.png',
     title: 'Milk Tea Ordering Project',
     author: '',
   },
