@@ -9,7 +9,7 @@ import { ProjectsGallery } from '@/constants/Info';
 const ProjectGallery = (props?: any) => {
     return(
         <div {...props}>
-            <ImageList variant="masonry" cols={3} gap={8}>
+            <ImageList variant="quilted" cols={3} gap={8}>
                 {(ProjectsGallery || []).map((item) => (
                     <ImageListItem key={item.img}>
                         <img
