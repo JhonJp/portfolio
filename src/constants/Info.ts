@@ -337,4 +337,14 @@ export const ProjectsGallery = [
     title: 'Microbiz One Inc. Website',
     author: '',
   },
+  {
+    img: '/img/projects/shoeshop/shoeshop.png',
+    title: 'Shoe Shop Project',
+    author: '',
+  },
+  {
+    img: '/img/projects/shoeshop/milkteashop.png',
+    title: 'Milk Tea Ordering Project',
+    author: '',
+  },
 ];
