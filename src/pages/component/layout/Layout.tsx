@@ -4,6 +4,7 @@ import ProjectCard from "../card/project-card";
 import Contact from "../contact/Contact";
 import { MailOutline, LinkedIn } from '@mui/icons-material';
 import { ContactDetails } from "@/constants/Info";
+import ProjectGallery from "../gallery/Gallery";
 
 const Layout = (props?: any) => {
     return(
@@ -42,6 +43,8 @@ const Layout = (props?: any) => {
         </div>
 
         <ProjectCard className="projects" />
+
+        <ProjectGallery className="project-gallery mt-3 m-5" />
 
         <Contact className="contact-details" details={ContactDetails} />
 

@@ -282,6 +282,10 @@ nav>div.container {
             }
         }
     }
+    .project-gallery.mt-3.m-5 ul{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 
 @media only screen and (max-width: 540px) { 

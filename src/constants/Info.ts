@@ -196,4 +196,145 @@ export const Projects: IProjects[] = [
     details: `A cargo tracking application that is for GP Express customers and its drivers. The users can book their boxes to let the drivers know that it is ready for pickup and to be shipped to its destination address.`,
     imgBackground: ``,
   },
+  {
+    name: "RSET Web Services Website",
+    tag: ["Wordpress", "NextJS", "SQL", "Rest API"],
+    details: `A website project for RSET Web-services. The website offers website creation, logo creation, mobile application development and other design factors.`,
+    imgBackground: ``,
+  },
+];
+
+export const ProjectsGallery = [
+  {
+    img: '/img/projects/internal/internal1.png',
+    title: 'vNext Internal Portal',
+    author: '',
+    rows: 2,
+    cols: 2,
+    featured: true,
+  },
+  {
+    img: '/img/projects/internal/internal2.png',
+    title: 'vNext Internal Portal',
+    author: '',
+  },
+  {
+    img: '/img/projects/internal/internal3.png',
+    title: 'vNext Internal Portal',
+    author: '',
+  },
+  {
+    img: '/img/projects/demostore/demostore.png',
+    title: 'vNext Demo Store',
+    author: '',
+    cols: 2,
+  },
+  {
+    img: '/img/projects/demostore/demostore2.png',
+    title: 'vNext Demo Store',
+    author: '',
+    rows: 2,
+    cols: 2,
+    featured: true,
+  },
+  {
+    img: '/img/projects/demostore/demostore3.png',
+    title: 'vNext Demo Store',
+    author: '',
+  },
+  {
+    img: '/img/projects/demostore/demostore4.png',
+    title: 'vNext Demo Store',
+    author: '',
+  },
+  {
+    img: '/img/projects/demostore/demostore5.png',
+    title: 'vNext Demo Store',
+    author: '',
+  },
+  {
+    img: '/img/projects/external/external.png',
+    title: 'vNext Customer Portal',
+    author: '',
+  },
+  {
+    img: '/img/projects/external/external1.png',
+    title: 'vNext Customer Portal',
+    author: '',
+  },
+  {
+    img: '/img/projects/external/external2.png',
+    title: 'vNext Customer Portal',
+    author: '',
+  },
+  {
+    img: '/img/projects/external/external3.png',
+    title: 'vNext Customer Portal',
+    author: '',
+  },
+  {
+    img: '/img/projects/external/external4.png',
+    title: 'vNext Customer Portal',
+    author: '',
+  },
+  {
+    img: '/img/projects/external/external5.png',
+    title: 'vNext Customer Portal',
+    author: '',
+  },
+  {
+    img: '/img/projects/external/external6.png',
+    title: 'vNext Customer Portal',
+    author: '',
+  },
+  {
+    img: '/img/projects/external/external7.png',
+    title: 'vNext Customer Portal',
+    author: '',
+  },
+  {
+    img: '/img/projects/rset/rset.png',
+    title: 'RSET Web Services',
+    author: '',
+  },
+  {
+    img: '/img/projects/groby/groby1.png',
+    title: 'Groby Mobile Application',
+    author: '',
+  },
+  {
+    img: '/img/projects/groby/groby2.png',
+    title: 'Groby Mobile Application',
+    author: '',
+  },
+  {
+    img: '/img/projects/groby/groby3.png',
+    title: 'Groby Mobile Application',
+    author: '',
+  },
+  {
+    img: '/img/projects/groby/groby4.png',
+    title: 'Groby Mobile Application',
+    author: '',
+  },
+  {
+    img: '/img/projects/groby/groby5.webp',
+    title: 'Groby Mobile Application',
+    author: '',
+  },
+  {
+    img: '/img/projects/bayan911/bayan911.png',
+    title: 'Bayan911 Emergency Response App',
+    author: '',
+  },
+  {
+    img: '/img/projects/bayan911/bayan911_2.png',
+    title: 'Bayan911 Emergency Response App',
+    author: '',
+  },
+  {
+    img: '/img/projects/bayan911/m1.png',
+    title: 'Microbiz One Inc. Website',
+    author: '',
+  },
 ];
